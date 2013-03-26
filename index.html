@@ -1,0 +1,45 @@
+---
+layout: base
+name: home
+---
+
+
+<section class="content">
+
+    <figure class="figure"><img src="/images/eid100.png"></figure>
+
+    <div class="content__box aligncenter">
+
+        <h1>Welcome to EID100 on Github</h1>
+
+        <p><a class="button button--big" href="https://github.com/EID100/2013-winter">Head to our Github repo &rarr;</a></p>
+        <p><a class="button button--secondary" href="http://eid100-w2013.wikispaces.com/">Explore our Wikispaces</a></p>
+        <p><a class="button button--secondary" href="https://de.ryerson.ca/de_courses/templates/default/?c=7E0A0209B929D097BD3E8EF30567A5C1">Read Course Modules</a></p>
+
+        <br><br><br><br>
+
+    </div> <!-- content__box -->
+
+</section> <!-- .content -->
+
+{% comment %}
+<section class="content content--main">
+    <div class="content__box">
+
+        <ul>
+            {% for post in site.posts %}
+                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+        </ul>
+
+    </div>
+</section> <!-- .content--main -->
+{% endcomment %}
+
+{% comment %}
+<footer class="content content--footer">
+
+    <p>footer here</p>
+
+</footer> <!-- .content--footer -->
+{% endcomment %}

@@ -1,0 +1,7 @@
+
+
+auto: true
+exclude: [ 'eid100.github.sublime-project', 'eid100.github.sublime-workspace', 'README.md', 'favicon.psd' ]
+markdown: rdiscount
+permalink: /:year/:month/:day/:title
+

@@ -1,2 +1,1 @@
-eid100.github.com
-=================
+# EID100 Github homepage repo
