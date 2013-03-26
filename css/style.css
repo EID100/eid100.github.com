@@ -691,6 +691,7 @@ input[type=search] {
     background: #0089ec;
     color: #fff;
     cursor: pointer;
+    text-decoration: none;
 }
 .button--secondary:hover {
     background: #999;
